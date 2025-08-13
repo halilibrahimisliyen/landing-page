@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(25, 33, 49);
+}
+
+.left-links{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    background-color: #1f2937;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.flower{
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.h1{
+    font-size: 48px;
+    font-family: "Roboto";
+    color:#f9faf8;
+    font-weight: 900;
+
+}
+
+.par{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    max-width: 100px;
+    height:40px;
+    flex-grow: 0;
+    border: none;
+    border-radius: 10px;
+}
+
+.middle{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.info{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.images{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.image{
+    border-radius: 20px;
+}
+
+.subjects{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 50px;
+}
+
+.saying{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+.person{
+    font-size: 24px;
+    margin-left: auto;
+    padding: 20px;
+}
+
+.action-section{
+    background-color: white;
+}
+.calltoaction{
+    background-color: #3882f6;
+    margin: 100px 150px;
+    min-height: 200px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+.other{
+    border: .3rem solid;
+    min-width: 100px;
+}
+
+.footer{
+    text-align: center;
+ 
+    padding: 20px;
+    background-color: rgb(25, 33, 49);
+    color: white;
+    
+}
